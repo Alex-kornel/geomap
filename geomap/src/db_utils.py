@@ -7,8 +7,8 @@ def connect_to_db():
     try:
         db = mysql.connector.connect(
             host="localhost",
-            user="root",  
-            password="Mybdpas_1",  
+            user="",  
+            password="",  
             database="ukraine_map"  
         )
         print("Підключення до бази даних успішне!")
