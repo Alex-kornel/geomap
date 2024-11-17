@@ -58,7 +58,7 @@ insert_coordinates(coordinates)  # Вставка координат у базу
 print(f"Inserted {len(coordinates)} coordinates into the database.")
 
 # Викликаємо функцію для відображення карти з лімітом маркерів
-display_map_with_limit(max_markers=5727)
+display_map_with_limit(max_markers=1000)
 
 
 
